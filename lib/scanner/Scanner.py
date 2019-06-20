@@ -20,7 +20,7 @@ from lib.helpers.colors import *
 from lib.scanner.ScanComparator import ScanComparator
 
 
-class Scanner(object):
+class Scanner:
     """Implementation of a nmap scanner and file exporter.
 
     This class is responsible for executing scans on any specified targets if possible, scanning for targets alive,
@@ -663,7 +663,6 @@ class Scanner(object):
                         # Open file in W mode, and re-write the content
                         # Notice that the csv module is not used in this case, it is easier
                         # to build the information manually than using the csv module
-                        print all_scan_results
                         with open(full_file_name, 'w') as output_file:
                             current_id = 1
                             # Re write the file and build each line index to match the line number.

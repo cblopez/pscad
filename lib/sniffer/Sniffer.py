@@ -14,7 +14,7 @@ from lib.sniffer.ARPPoisoner import ARPPoisoner
 from scapy.all import *
 
 
-class Sniffer(object):
+class Sniffer:
     """A network sniffer implementation using scapy's built-in functions. This class
     executes two important functionalities. First of all, it sniffs the hole network thanks to
     the ARP Poisoning performed by the lib.sniffer.ARPPoisoner class, applying several options

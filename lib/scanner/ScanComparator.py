@@ -6,7 +6,7 @@
 # Written by Christian Barral <cbarrallopez@gmail.com>, May 2019
 
 
-class ScanComparator(object):
+class ScanComparator:
     """ This class presents the utilities for gathering specific information about two different network
     scans performed by the PSCAD application.
 

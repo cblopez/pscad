@@ -17,7 +17,7 @@ from scapy.sendrecv import *
 from scapy.layers.l2 import *
 
 
-class ARPPoisoner(object):
+class ARPPoisoner:
     """Implementation of a thread-based ARP Poisoner to position this host in the
     middle of the network communications. The only address required is the Gateway's
     IP address, other information needed like local IP, local MAC or other MAC address
