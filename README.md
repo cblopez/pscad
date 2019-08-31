@@ -48,9 +48,10 @@ a bit easier and adds some new options for CSV and PDF exportation, as well as s
 You can execute `pscad scan --help` to display the options.  
 
 **Mandatory options  (choose one)**  
-
+  dddd
+  
 | Option | Description |  
-|--------|:---------|
+|--------|:---------|  
 | -t  |  Specify targets IP addresses. See help menu for examples.  |  
 | -i  |  Specify a .txt file to read one IP per line. |  
   
