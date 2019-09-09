@@ -9,7 +9,7 @@
   
 ## Installation
 
-   #####**Keep in mind! You need to have nmap installed before using this application. You can find how [here](https://nmap.org/download.html).**
+   ##### **Keep in mind! You need to have nmap installed before using this application. You can find how [here](https://nmap.org/download.html).**
 
    ### Automatic installation  
    For using the application, you will need Python 3.3+ and the package manager, pip.  
